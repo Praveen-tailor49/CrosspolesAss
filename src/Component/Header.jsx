@@ -9,6 +9,7 @@ function Header() {
     const openModal = () => {
         dispatch({ type: Show_Modal, payload: true })
     }
+    
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
